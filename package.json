@@ -9,6 +9,16 @@
   "author": "yooss",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.5.5"
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.21.3",
+    "next": "^9.5.5",
+    "prop-types": "^15.8.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }

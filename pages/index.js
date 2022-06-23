@@ -1,4 +1,10 @@
+import AppLayout from "../components/AppLayout";
+import React  from "react";
 const Home = () => {
-  return <div>Hello, Next!</div>;
+  return (
+    <AppLayout>
+      <div>hi</div>
+    </AppLayout>
+  );
 };
 export default Home;
