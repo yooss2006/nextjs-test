@@ -42,7 +42,7 @@ const AppLayout = ({ children }) => {
             {children}
           </Col>
           <Col xs={24} md={6}>
-            오른쪽 메뉴
+            <a href="https://www.naver.com" target="_blank" rel="noreferrer noopener">네이버</a>
           </Col>
         </Row>
       </div>
