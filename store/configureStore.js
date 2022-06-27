@@ -1,5 +1,8 @@
 import { createWrapper } from "next-redux-wrapper";
-const configureStore = () => {};
+import { createStore } from "redux";
+const configureStore = () => {
+  const store = createStore(reducer);
+};
 const wrapper = createWrapper(configureStore, {
   debug: process.env.NODE_ENV === "development",
 });
