@@ -3,12 +3,12 @@ import PropsTypes from "prop-types";
 
 import { Menu } from "antd";
 import "antd/dist/antd.css";
+import { useSelector } from "react-redux";
 
 import Link from "next/link";
 import { Col, Row, Input } from "antd";
 import LoginForm from "./LoginForm";
 import UserProfile from "./UserProfile";
-import { useSelector } from "react-redux";
 
 const AppLayout = ({ children }) => {
   const isLoggedIn = useSelector((state) => state.user.isLoggedIn);
